@@ -1,15 +1,1 @@
-document.addEventListener('DOMContentLoaded', () => {
-	const downloadToggles = document.querySelectorAll('.preview-download-toggle');
-	downloadToggles.forEach((item) => {
-		const toggleLink = item.querySelector('h4');
-		toggleLink.addEventListener('click', (e) => {
-			if (item.classList.contains('active')) {
-				item.classList.remove('active');
-				toggleLink.textContent = 'Show all downloads';
-			} else {
-				item.classList.add('active');
-				toggleLink.textContent = 'Hide all downloads';
-			}
-		});
-	});
-});
+document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelectorAll(".preview-download-toggle");e.forEach(e=>{const t=e.querySelector("h4");t.addEventListener("click",n=>{e.classList.contains("active")?(e.classList.remove("active"),t.textContent="Show all downloads"):(e.classList.add("active"),t.textContent="Hide all downloads")})})})

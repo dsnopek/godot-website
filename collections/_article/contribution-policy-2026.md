@@ -8,8 +8,9 @@ date: 2026-06-25 18:00:00
 ---
 
 Over the last several years we have become overwhelmed by the large number of
-code contributions (pull requests), especially those from new contributors. The number of open PRs has become a
-meme in the community. In part, the number of open PRs is a healthy sign that:
+code contributions (pull requests), especially those from new contributors.
+The number of open PRs has become a meme in the community. In part, the number
+of open PRs is a healthy sign that:
 
 1.	People are interested in contributing to Godot and are willing to put in time to contribute,
 2.	We are being cautious about feature creep,
@@ -21,10 +22,10 @@ with everything coming in.
 
 This problem is compounded by the recent increase in AI-generated contributions,
 both by AI agents and by humans submitting AI generated code. The amount of
-effort required to make a PR has gone down (and number of PRs has increased proportionally), while the amount of work to review
-PRs and the amount of people available to review has stayed the same. This
-reviewer shortage was already a problem, but it was one that we successfully
-ignored. We can no longer ignore it.
+effort required to make a PR has gone down (and number of PRs has increased as a
+result), while the amount of work to review PRs and the amount of people
+available to review has stayed the same. This reviewer shortage was already a
+problem, but it was one that we successfully ignored. We can no longer ignore it.
 
 AI contributions have the added pain of being demoralizing. Reviewing PRs is
 already thankless work, but it is rewarding because reviewers generally feel

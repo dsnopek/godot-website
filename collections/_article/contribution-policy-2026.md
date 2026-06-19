@@ -7,8 +7,8 @@ image: /storage/blog/covers/godot-foundation-update-2024.webp
 date: 2026-06-25 18:00:00
 ---
 
-For the last several years we have become overwhelmed by the large number of
-PRs, especially those from new contributors. The number of open PRs has become a
+Over the last several years we have become overwhelmed by the large number of
+code contributions (pull requests), especially those from new contributors. The number of open PRs has become a
 meme in the community. In part, the number of open PRs is a healthy sign that:
 
 1.	People are interested in contributing to Godot and are willing to put in time to contribute,
@@ -17,14 +17,14 @@ meme in the community. In part, the number of open PRs is a healthy sign that:
 
 But ultimately, a large part of the backlog comes from the fact that the number
 of qualified reviewers is small, reviewing PRs is not fun, and we can't keep up
-with everything new coming in. 
+with everything coming in. 
 
 This problem is compounded by the recent increase in AI-generated contributions,
 both by AI agents and by humans submitting AI generated code. The amount of
-effort required to make a PR has gone down, while the amount of work to review
+effort required to make a PR has gone down (and number of PRs has increased proportionally), while the amount of work to review
 PRs and the amount of people available to review has stayed the same. This
 reviewer shortage was already a problem, but it was one that we successfully
-ignored. Now we can no longer ignore it.
+ignored. We can no longer ignore it.
 
 AI contributions have the added pain of being demoralizing. Reviewing PRs is
 already thankless work, but it is rewarding because reviewers generally feel
@@ -60,13 +60,13 @@ engage with maintainers to build trust by working on bug fixes and documentation
 before diving into significant projects. We consider a new contributor to be
 someone with 3 or fewer merged pull requests. 
 
-Our AI policy will be amended to include that:
+Our amended AI policy will include that:
 - **All AI use must be disclosed**
     - This is the same as in our [current policy](https://contributing.godotengine.org/en/latest/pull_requests/pull_request_guidelines.html#ai-assisted-contributions)
 - **Only trusted contributors can use AI**
     - New contributors are not permitted to use AI to contribute until they have shown that they understand the codebase.
     - We don’t have an exact criteria for when someone becomes a trusted contributor, but at minimum it means:
-        - Having several merged Pull Requests
+        - Having several merged pull requests
         - Contributing regularly for at least 6 months
         - Being active on the Godot chat
 - **Absolutely no AI generated comments on Github/issues/PR descriptions/discussions/chat messages** (e.g. all communication must be human-to-human)

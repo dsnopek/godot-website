@@ -41,7 +41,8 @@ ensuring we still have a pipeline to mentor new contributors to become future
 maintainers. 
 
 Accordingly, we are in the process of updating our contribution policies,
-including adding a stricter policy on AI contributions. Our focus will be on:
+including adding a stricter policy on AI contributions. The Foundation board
+and maintainers have been discussing a new policy for several months. Our focus will be on:
 
 - **Encouraging new contributors to become future maintainers, that involves teaching and growing the understanding of new contributors.**
     - LLMs (and new contributors heavily relying on AI) can't learn from specific feedback and thus can't benefit from maintainers providing feedback.
@@ -59,9 +60,10 @@ re-factoring from new contributors without explicit permission from maintainers.
 This ensures that new contributors take the time to learn the codebase and
 engage with maintainers to build trust by working on bug fixes and documentation
 before diving into significant projects. We consider a new contributor to be
-someone with 3 or fewer merged pull requests. 
+someone with 3 or fewer merged pull requests.
 
-Our amended AI policy will include that:
+Shortly we will amend our AI policy to align with the values described above. Our
+amended AI policy will include that:
 - **All AI use must be disclosed**
     - This is the same as in our [current policy](https://contributing.godotengine.org/en/latest/pull_requests/pull_request_guidelines.html#ai-assisted-contributions)
 - **Only trusted contributors can use AI**
@@ -70,11 +72,13 @@ Our amended AI policy will include that:
         - Having several merged pull requests
         - Contributing regularly for at least 6 months
         - Being active on the Godot chat
-- **Absolutely no AI generated comments on Github/issues/PR descriptions/discussions/chat messages** (e.g. all communication must be human-to-human)
+- **Absolutely no AI generated comments on Github/issues/PR descriptions/PR reviews/discussions/chat messages** (e.g. all communication must be human-to-human)
     - This is basic principle of respect. Our maintainers are volunteering their time, so please be respectful.
     - Machine translations are still acceptable as long as the original content was written by a human.
 - **No autonomous AI agent use or vibe coding**
-    - This already leads to an auto-ban from our Github repository and will continue to do so. We simply don’t have the resources to review fully AI-generated code. 
+    - This already leads to an auto-ban from our Github repository and will continue to do so. We simply don’t have the resources to review fully AI-generated code.
+- **All PRs must be reviewed and approved by a human before merging**
+    - This is the case already, but we will make it more explicit in our policy. 
 
 Things change every day with respect to the current suite of AI tools available.
 We will continue taking a conservative approach in our policies towards them,

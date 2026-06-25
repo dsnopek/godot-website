@@ -17,7 +17,7 @@ of open PRs is a healthy sign that:
 3.	We are dedicated to high code quality.
 
 But ultimately, a large part of the backlog comes from the fact that the number
-of qualified reviewers is small, reviewing PRs is not fun, and we can't keep up
+of qualified reviewers is small, reviewing PRs is demanding, and we can't keep up
 with everything coming in. 
 
 This problem is compounded by the recent increase in AI-generated contributions,
@@ -28,7 +28,7 @@ available to review has stayed the same. This reviewer shortage was already a
 problem, but it was one that we successfully ignored. We can no longer ignore it.
 
 AI contributions have the added pain of being demoralizing. Reviewing PRs is
-already thankless work, but it is rewarding because reviewers generally feel
+already tedious work, but it is rewarding because reviewers generally feel
 that their efforts are contributing to educating a new contributor (who may
 become a future maintainer/reviewer). If your feedback on PRs is just being
 absorbed by a machine and not going towards mentoring a potential future
@@ -45,7 +45,7 @@ including adding a stricter policy on AI contributions. The Foundation board
 and maintainers have been discussing a new policy for several months. Our focus will be on:
 
 - **Encouraging new contributors to become future maintainers, that involves teaching and growing the understanding of new contributors.**
-    - LLMs (and new contributors heavily relying on AI) can't learn from specific feedback and thus can't benefit from maintainers providing feedback.
+    - LLMs can't learn from specific feedback and thus can't benefit from maintainers providing feedback.
 - **Ensuring all contributions are made by humans who can take responsibility for their code and be able and willing to fix it when needed.**
     - AI cannot take responsibility, and we can't trust heavy users of AI to understand their code enough to fix it.
 - **Adding barriers to low-effort slop.**
@@ -64,19 +64,14 @@ someone with 3 or fewer merged pull requests.
 
 Shortly we will amend our AI policy to align with the values described above. Our
 amended AI policy will include that:
-- **All AI use must be disclosed**
-    - This is the same as in our [current policy](https://contributing.godotengine.org/en/latest/pull_requests/pull_request_guidelines.html#ai-assisted-contributions)
-- **Only trusted contributors can use AI**
-    - New contributors are not permitted to use AI to contribute until they have shown that they understand the codebase.
-    - We don’t have an exact criteria for when someone becomes a trusted contributor, but at minimum it means:
-        - Having several merged pull requests
-        - Contributing regularly for at least 6 months
-        - Being active on the Godot chat
-- **Absolutely no AI generated comments on Github/issues/PR descriptions/PR reviews/discussions/chat messages** (e.g. all communication must be human-to-human)
+- **No autonomous AI agent use or vibe coding**
+    - This already leads to an auto-ban from our Github repository and will continue to do so.
+- **No use of AI to generate substantial pieces of code**
+    - We require all code to be human authored. AI assistance should be limited to menial things (like code completion, regex, or find and replace).
+    - If you do use AI in some capacity to author code, you must disclose it in the PR discussion.
+- **Absolutely no AI generated text in human-to-human communication**
     - This is basic principle of respect. Our maintainers are volunteering their time, so please be respectful.
     - Machine translations are still acceptable as long as the original content was written by a human.
-- **No autonomous AI agent use or vibe coding**
-    - This already leads to an auto-ban from our Github repository and will continue to do so. We simply don’t have the resources to review fully AI-generated code.
 - **All PRs must be reviewed and approved by a human before merging**
     - This is the case already, but we will make it more explicit in our policy. 
 

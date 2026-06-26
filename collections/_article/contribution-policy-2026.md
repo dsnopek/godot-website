@@ -70,7 +70,7 @@ amended AI policy will include that:
     - We require all code to be human authored. AI assistance should be limited to menial things (like code completion, regex, or find and replace).
     - If you do use AI in some capacity to author code, you must disclose it in the PR discussion.
 - **Absolutely no AI generated text in human-to-human communication**
-    - This is basic principle of respect. Our maintainers are volunteering their time, so please be respectful.
+    - This is a basic principle of respect. Our maintainers are volunteering their time, so please be respectful.
     - Machine translations are still acceptable as long as the original content was written by a human.
 - **All PRs must be reviewed and approved by a human before merging**
     - This is the case already, but we will make it more explicit in our policy. 
